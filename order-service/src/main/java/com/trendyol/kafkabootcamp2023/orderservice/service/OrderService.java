@@ -51,6 +51,6 @@ public class OrderService {
             orderDeliveredProducer.produce(new OrderDeliveredMessage(order));
         }
 
-        return null;
+        return new OrderResponse(order);
     }
 }
