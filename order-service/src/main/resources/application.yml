@@ -8,7 +8,7 @@ spring:
     enabled: true
     change-log: classpath:db/changelog/db.changelog-master.xml
   datasource:
-    url: jdbc:postgresql://localhost:5432/order?reWriteBatchedInserts=true
+    url: jdbc:postgresql://localhost:5433/order?reWriteBatchedInserts=true
     driver-class-name: org.postgresql.Driver
     datasource-class-name: org.postgresql.ds.PGSimpleDataSource
     username: order_db_appuser
